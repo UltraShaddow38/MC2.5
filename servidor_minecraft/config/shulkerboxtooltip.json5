@@ -30,11 +30,12 @@
 		*/
 		"serverIntegration": true,
 		/* The theme to use for preview windows.
-		   SHULKERBOXTOOLTIP: ShulkerBoxTooltip's default look and feel.
+		   MOD_LIGHT: ShulkerBoxTooltip's style with vanilla colors.
+		   MOD_DARK: ShulkerBoxTooltip's style with gray preview windows instead of white.
 		   VANILLA: Mimics the style of vanilla bundle previews.
-		   (default value: SHULKERBOXTOOLTIP)
+		   (default value: MOD_LIGHT)
 		*/
-		"theme": "SHULKERBOXTOOLTIP",
+		"theme": "MOD_LIGHT",
 		/* The position of the preview window.
 		   INSIDE: Inside the item's tooltip.
 		   OUTSIDE: Outside the item's tooltip, moves depending on the screen borders.
@@ -76,7 +77,7 @@
 	},
 	"server": {
 		/* If on, the server will be able to provide extra information about containers to the clients with the mod installed.
-		   Disabling this option will disable all the options below.
+		   Disabling this option will disable all of the options below.
 		   (default value: true)
 		*/
 		"clientIntegration": true,
