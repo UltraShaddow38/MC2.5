@@ -153,3 +153,46 @@
 [17Jan2025 15:35:52.814] [Worker-Main-1/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: kaisyn:village/meadow_swiss/villagers
 [17Jan2025 15:35:53.031] [Worker-Main-1/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: kaisyn:village/meadow_swiss/villagers
 [17Jan2025 15:36:02.979] [Worker-Main-1/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wooden_wheat_farm
+[17Jan2025 15:39:04.779] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shadder4k has made the advancement [Stone Age]
+[17Jan2025 15:41:53.546] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shadder4k has made the advancement [Monster Hunter]
+[17Jan2025 15:41:57.442] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ultra_legend38 has made the advancement [Monster Hunter]
+[17Jan2025 15:46:55.839] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ultra_legend38 has made the advancement [Acquire Hardware]
+[17Jan2025 15:49:55.813] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ultra_legend38 has made the advancement [Isn't It Iron Pick]
+[17Jan2025 15:51:10.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shadder4k has made the advancement [Acquire Hardware]
+[17Jan2025 15:51:32.869] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shadder4k has made the advancement [Isn't It Iron Pick]
+[17Jan2025 15:51:51.846] [Worker-Main-25/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-21, y=-58, z=1048}
+[17Jan2025 15:51:51.849] [Worker-Main-25/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-21, y=-58, z=1048}
+[17Jan2025 15:51:51.849] [Worker-Main-25/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-23, y=-58, z=1048}
+[17Jan2025 15:51:51.849] [Worker-Main-25/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-23, y=-58, z=1048}
+[17Jan2025 15:51:51.850] [Worker-Main-25/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-17, y=-54, z=1050}
+[17Jan2025 15:51:52.014] [Worker-Main-25/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-25, y=-58, z=1048}
+[17Jan2025 15:51:52.014] [Worker-Main-25/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-25, y=-58, z=1049}
+[17Jan2025 15:51:52.015] [Worker-Main-25/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-25, y=-58, z=1051}
+[17Jan2025 15:52:00.578] [Worker-Main-25/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-57, y=-58, z=1079}
+[17Jan2025 15:52:00.582] [Worker-Main-25/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-57, y=-58, z=1080}
+[17Jan2025 15:52:00.588] [Worker-Main-25/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-55, y=-58, z=1080}
+[17Jan2025 15:52:00.589] [Worker-Main-25/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-55, y=-58, z=1080}
+[17Jan2025 15:52:00.589] [Worker-Main-25/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-53, y=-58, z=1080}
+[17Jan2025 15:52:00.590] [Worker-Main-25/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-53, y=-58, z=1079}
+[17Jan2025 15:53:02.594] [Worker-Main-25/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-57, y=-58, z=1076}
+[17Jan2025 15:53:02.596] [Worker-Main-25/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-55, y=-58, z=1076}
+[17Jan2025 15:53:02.597] [Worker-Main-25/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-57, y=-58, z=1077}
+[17Jan2025 15:53:02.597] [Worker-Main-25/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-53, y=-58, z=1077}
+[17Jan2025 15:53:35.879] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ultra_legend38 has made the advancement [Crops of the Wild]
+[17Jan2025 15:54:05.778] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shadder4k has made the advancement [Crops of the Wild]
+[17Jan2025 15:54:53.067] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shadder4k has made the advancement [Suit Up]
+[17Jan2025 15:55:49.955] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ultra_legend38 has made the advancement [Sweet Dreams]
+[17Jan2025 15:55:51.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shadder4k has made the advancement [Sweet Dreams]
+[17Jan2025 15:56:00.979] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ultra_legend38 lost connection: Disconnected
+[17Jan2025 15:56:00.979] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ultra_legend38 left the game
+[17Jan2025 15:56:07.560] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@211f77e4
+[17Jan2025 15:56:07.577] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Ultra_legend38[/127.218.11.51:54871] logged in with entity id 5790 at (-211.5, 128.5625, 795.5)
+[17Jan2025 15:56:07.600] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ultra_legend38 joined the game
+[17Jan2025 15:56:07.726] [Server thread/INFO] [Jade/]: Syncing config to Ultra_legend38 (bdb2eeea-e68d-3488-899e-749a6ee9f16e)
+[17Jan2025 15:56:08.727] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ultra_legend38 lost connection: Disconnected
+[17Jan2025 15:56:08.728] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ultra_legend38 left the game
+[17Jan2025 15:56:22.253] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@5e9a4bb2
+[17Jan2025 15:56:22.277] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Ultra_legend38[/127.218.11.51:50589] logged in with entity id 5821 at (-212.0, 128.5625, 795.5)
+[17Jan2025 15:56:22.310] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ultra_legend38 joined the game
+[17Jan2025 15:56:22.415] [Server thread/INFO] [Jade/]: Syncing config to Ultra_legend38 (bdb2eeea-e68d-3488-899e-749a6ee9f16e)
+[17Jan2025 15:56:23.431] [Netty Epoll Server IO #3/INFO] [ShulkerBoxTooltip/]: [ShulkerBoxTooltip] Ultra_legend38: protocol version: 2.0
