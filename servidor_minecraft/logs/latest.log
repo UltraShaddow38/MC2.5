@@ -1,399 +1,166 @@
-[17Jan2025 15:28:55.840] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.4.2, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853, nogui]
-[17Jan2025 15:28:55.871] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.13 by Ubuntu; OS Linux arch amd64 version 6.5.0-1025-azure
-[17Jan2025 15:28:59.488] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/MC2.5/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
-[17Jan2025 15:29:00.689] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MC2.5/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.19.2-43.4.2/fmlcore-1.19.2-43.4.2.jar is missing mods.toml file
-[17Jan2025 15:29:00.693] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MC2.5/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.19.2-43.4.2/javafmllanguage-1.19.2-43.4.2.jar is missing mods.toml file
-[17Jan2025 15:29:00.694] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MC2.5/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.19.2-43.4.2/lowcodelanguage-1.19.2-43.4.2.jar is missing mods.toml file
-[17Jan2025 15:29:00.696] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MC2.5/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.19.2-43.4.2/mclanguage-1.19.2-43.4.2.jar is missing mods.toml file
-[17Jan2025 15:29:01.184] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
-[17Jan2025 15:29:01.187] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 4 dependencies adding them to mods collection
-[17Jan2025 15:29:07.383] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[17Jan2025 15:29:07.855] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.sonicether.soundphysics.MixinConnector]
-[17Jan2025 15:29:07.859] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [tictim.paraglider.MixinConnector]
-[17Jan2025 15:29:07.864] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [de.maxhenkel.camera.MixinConnector]
-[17Jan2025 15:29:07.875] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[17Jan2025 15:29:07.955] [main/WARN] [mixin/]: Reference map 'cobweb.refmap.json' for cobweb.mixins.json could not be read. If this is a development environment you can ignore this message
-[17Jan2025 15:29:07.957] [main/WARN] [mixin/]: Reference map 'cobweb.refmap.json' for cobweb.forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[17Jan2025 15:29:07.960] [main/WARN] [mixin/]: Reference map 'vinery-forge-refmap.json' for vinery.mixins.json could not be read. If this is a development environment you can ignore this message
-[17Jan2025 15:29:07.979] [main/WARN] [mixin/]: Reference map 'ambientsounds.mixins.refmap.json' for ambientsounds.mixins.json could not be read. If this is a development environment you can ignore this message
-[17Jan2025 15:29:08.025] [main/WARN] [mixin/]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
-[17Jan2025 15:29:08.055] [main/WARN] [mixin/]: Reference map 'mvs-forge-refmap.json' for mvs-forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[17Jan2025 15:29:11.460] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.2.1-beta.2).
-[17Jan2025 15:29:15.208] [main/WARN] [mixin/]: @Final field f_20945_:Ljava/util/Map; in vinery-common.mixins.json:LivingEntityMixin should be final
-[17Jan2025 15:29:25.903] [main/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
-[17Jan2025 15:29:33.039] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for mod easyanvils
-[17Jan2025 15:29:33.047] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for mod visualworkbench
-[17Jan2025 15:29:33.297] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
-[17Jan2025 15:29:33.362] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
-[17Jan2025 15:29:34.269] [modloading-worker-0/INFO] [coroutil/]: forge loader environment detected
-[17Jan2025 15:29:34.474] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.4.2, for MC 1.19.2 with MCP 20220805.130853
-[17Jan2025 15:29:34.475] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.4.2 Initialized
-[17Jan2025 15:29:36.547] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[17Jan2025 15:29:36.660] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for mod puzzleslib
-[17Jan2025 15:29:37.039] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
-[17Jan2025 15:29:42.232] [modloading-worker-0/INFO] [com.github.nyuppo.MoreMobVariants/]: Giving mobs a fresh coat of paint...
-[17Jan2025 15:29:42.336] [main/INFO] [journeymap/]: Initializing Packet Registries
-[17Jan2025 15:29:42.588] [main/INFO] [moonlight/]: Initialized color sets in 165ms
-[17Jan2025 15:29:42.671] [main/INFO] [moonlight/]: Initialized color sets in 82ms
-[17Jan2025 15:29:42.899] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easyanvils] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/easyanvils.json
-[17Jan2025 15:29:43.327] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.waystones.compat.ForgeJadeWaystonesPlugin
-[17Jan2025 15:29:43.356] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at de.maxhenkel.corpse.integration.waila.PluginCorpse
-[17Jan2025 15:29:43.366] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
-[17Jan2025 15:29:43.408] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
-[17Jan2025 15:29:43.422] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
-[17Jan2025 15:29:43.444] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at de.maxhenkel.camera.integration.waila.PluginCamera
-[17Jan2025 15:29:43.451] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.geforcemods.securitycraft.compat.waila.JadeDataProvider
-[17Jan2025 15:29:43.722] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easyanvils] Found status: UP_TO_DATE Current: 4.0.11 Target: null
-[17Jan2025 15:29:43.723] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [visualworkbench] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/visualworkbench.json
-[17Jan2025 15:29:43.728] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [visualworkbench] Found status: UP_TO_DATE Current: 4.2.4 Target: null
-[17Jan2025 15:29:43.729] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Starting version check at https://mrcrayfish.com/modupdatejson?id=goblintraders
-[17Jan2025 15:29:44.808] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Found status: BETA Current: 1.8.0 Target: 1.8.0
-[17Jan2025 15:29:44.808] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwwindows] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/window.json
-[17Jan2025 15:29:44.820] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwwindows] Found status: UP_TO_DATE Current: 2.3.0 Target: null
-[17Jan2025 15:29:44.820] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
-[17Jan2025 15:29:45.180] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.9.8 Target: null
-[17Jan2025 15:29:45.181] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cobweb] Starting version check at https://api.modrinth.com/updates/cobweb/forge_updates.json
-[17Jan2025 15:29:45.575] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cobweb] Found status: OUTDATED Current: 1.0.0 Target: 1.0.1
-[17Jan2025 15:29:45.576] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [minetraps] Starting version check at https://raw.githubusercontent.com/XxRexRaptorxX/Update-Checker/main/MineTraps.json
-[17Jan2025 15:29:45.584] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [minetraps] Found status: UP_TO_DATE Current: 2.2.4a Target: null
-[17Jan2025 15:29:45.585] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [soul_fire_d] Starting version check at https://api.modrinth.com/updates/soul-fire-d/forge_updates.json
-[17Jan2025 15:29:45.741] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [soul_fire_d] Found status: OUTDATED Current: 4.0.7 Target: 4.0.8
-[17Jan2025 15:29:45.742] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Starting version check at https://update.maxhenkel.de/forge/sound_physics_remastered
-[17Jan2025 15:29:46.119] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Found status: AHEAD Current: 1.19.2-1.4.5 Target: null
-[17Jan2025 15:29:46.120] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[17Jan2025 15:29:46.415] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 43.4.2 Target: 43.4.12
-[17Jan2025 15:29:46.426] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Starting version check at https://update.maxhenkel.de/forge/corpse
-[17Jan2025 15:29:46.459] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Found status: AHEAD Current: 1.19.2-1.0.17 Target: null
-[17Jan2025 15:29:46.460] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
-[17Jan2025 15:29:46.474] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: UP_TO_DATE Current: 1.19.2-2.3.7 Target: null
-[17Jan2025 15:29:46.475] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [camera] Starting version check at https://update.maxhenkel.de/forge/camera
-[17Jan2025 15:29:46.501] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [camera] Found status: AHEAD Current: 1.19.2-1.0.14 Target: null
-[17Jan2025 15:29:46.502] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
-[17Jan2025 15:29:46.748] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.9.6.1 Target: null
-[17Jan2025 15:29:46.749] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [backpacked] Starting version check at https://mrcrayfish.com/modupdatejson?id=backpacked
-[17Jan2025 15:29:47.616] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [backpacked] Found status: BETA Current: 2.1.13 Target: 2.1.13
-[17Jan2025 15:29:47.616] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Starting version check at https://raw.githubusercontent.com/DmitryLovin/pluginUpdate/master/invupdate.json
-[17Jan2025 15:29:47.628] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Found status: UP_TO_DATE Current: 3.4.26 Target: null
-[17Jan2025 15:29:47.629] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [morevanillaarmor] Starting version check at https://assets.melanx.de/updates/morevanillaarmor.json
-[17Jan2025 15:29:47.740] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [morevanillaarmor] Found status: UP_TO_DATE Current: 1.19.1-4.1.1 Target: null
-[17Jan2025 15:29:47.742] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Starting version check at https://mrcrayfish.com/modupdatejson?id=cfm
-[17Jan2025 15:29:48.601] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Found status: BETA Current: 7.0.0-pre35 Target: 7.0.0-pre35
-[17Jan2025 15:29:48.602] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
-[17Jan2025 15:29:48.612] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Found status: UP_TO_DATE Current: 4.4.3 Target: null
-[17Jan2025 15:29:49.174] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[17Jan2025 15:29:51.697] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/MC2.5/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23205!/assets/.mcassetsroot' uses unexpected schema
-[17Jan2025 15:29:51.698] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/MC2.5/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23205!/data/.mcassetsroot' uses unexpected schema
-[17Jan2025 15:29:57.081] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [minecraft:cherry_grove (from mvs-4.1.4-1.19.2-forge.jar)] as it is missing following references: minecraft:cherry_grove (from mvs-4.1.4-1.19.2-forge.jar)
-[17Jan2025 15:29:59.650] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 13 recipes
-[17Jan2025 15:29:59.652] [main/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Datapack tried to redefine minecraft:empty loot table, ignoring
-[17Jan2025 15:30:01.295] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2840 advancements
-[17Jan2025 15:30:01.322] [main/INFO] [com.github.nyuppo.MoreMobVariants/]: Reloading config...
-[17Jan2025 15:30:01.355] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: mvs:has_structure/cherry_biomes
-[17Jan2025 15:30:03.012] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.19.2
-[17Jan2025 15:30:03.013] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[17Jan2025 15:30:03.013] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[17Jan2025 15:30:03.013] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[17Jan2025 15:30:03.288] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[17Jan2025 15:30:03.344] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[17Jan2025 15:30:03.456] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[17Jan2025 15:30:03.456] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[17Jan2025 15:30:03.457] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[17Jan2025 15:30:03.457] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[17Jan2025 15:30:03.484] [Server thread/INFO] [Puzzles Lib/]: Loading server config for easyanvils
-[17Jan2025 15:30:03.486] [Thread-0/INFO] [Puzzles Lib/]: Reloading server config for easyanvils
-[17Jan2025 15:30:03.487] [Thread-0/INFO] [Puzzles Lib/]: Reloading server config for easyanvils
-[17Jan2025 15:30:03.486] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[17Jan2025 15:30:03.489] [Thread-0/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[17Jan2025 15:30:03.490] [Thread-0/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[17Jan2025 15:30:03.652] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[17Jan2025 15:30:20.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[17Jan2025 15:30:30.482] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17Jan2025 15:30:30.487] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17Jan2025 15:30:30.488] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17Jan2025 15:30:30.489] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17Jan2025 15:30:30.490] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17Jan2025 15:30:30.500] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17Jan2025 15:30:30.502] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17Jan2025 15:30:30.505] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17Jan2025 15:30:30.508] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17Jan2025 15:30:30.511] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17Jan2025 15:30:30.514] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17Jan2025 15:30:30.516] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17Jan2025 15:30:30.517] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17Jan2025 15:30:30.519] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17Jan2025 15:30:30.520] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17Jan2025 15:30:30.522] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17Jan2025 15:30:30.524] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17Jan2025 15:30:30.528] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17Jan2025 15:30:30.531] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17Jan2025 15:30:30.534] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17Jan2025 15:30:30.613] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17Jan2025 15:30:31.109] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17Jan2025 15:30:31.609] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17Jan2025 15:30:32.256] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 17%
-[17Jan2025 15:30:32.943] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 12335 ms
-[17Jan2025 15:30:32.944] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (29.472s)! For help, type "help"
-[17Jan2025 15:30:32.973] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[17Jan2025 15:30:40.503] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@2c51ff9c
-[17Jan2025 15:30:40.547] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Ultra_legend38[/127.218.11.51:53685] logged in with entity id 211 at (-181.36791454038237, 107.0, 432.3775224335327)
-[17Jan2025 15:30:40.666] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ultra_legend38 joined the game
-[17Jan2025 15:30:41.067] [Server thread/INFO] [Jade/]: Syncing config to Ultra_legend38 (bdb2eeea-e68d-3488-899e-749a6ee9f16e)
-[17Jan2025 15:30:42.277] [Netty Epoll Server IO #1/INFO] [ShulkerBoxTooltip/]: [ShulkerBoxTooltip] Ultra_legend38: protocol version: 2.0
-[17Jan2025 15:30:42.285] [Server thread/INFO] [ShulkerBoxTooltip Plugins/]: [ShulkerBoxTooltip Plugins] Loading 1 plugin: shulkerboxtooltip
-[17Jan2025 15:30:42.289] [Server thread/INFO] [ShulkerBoxTooltip Plugins/]: [ShulkerBoxTooltip Plugins] Registered 7 providers for mod shulkerboxtooltip
-[17Jan2025 15:30:45.993] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@5fa80951
-[17Jan2025 15:30:46.005] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: shadder4k[/127.189.223.118:36163] logged in with entity id 228 at (-241.5, 86.0, 404.5)
-[17Jan2025 15:30:46.016] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shadder4k joined the game
-[17Jan2025 15:30:46.509] [Server thread/INFO] [Jade/]: Syncing config to shadder4k (07950977-8e4a-36d3-afc8-95051663465e)
-[17Jan2025 15:30:47.084] [Netty Epoll Server IO #3/INFO] [ShulkerBoxTooltip/]: [ShulkerBoxTooltip] shadder4k: protocol version: 2.0
-[17Jan2025 15:31:04.589] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ultra_legend38 has made the advancement [Stone Age]
-[17Jan2025 15:31:23.078] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ultra_legend38 has made the advancement [Getting an Upgrade]
-[17Jan2025 15:31:27.956] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shadder4k has made the advancement [Getting an Upgrade]
-[17Jan2025 15:35:51.499] [Worker-Main-1/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: kaisyn:village/meadow_swiss/villagers
-[17Jan2025 15:35:52.814] [Worker-Main-1/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: kaisyn:village/meadow_swiss/villagers
-[17Jan2025 15:35:53.031] [Worker-Main-1/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: kaisyn:village/meadow_swiss/villagers
-[17Jan2025 15:36:02.979] [Worker-Main-1/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wooden_wheat_farm
-[17Jan2025 15:39:04.779] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shadder4k has made the advancement [Stone Age]
-[17Jan2025 15:41:53.546] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shadder4k has made the advancement [Monster Hunter]
-[17Jan2025 15:41:57.442] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ultra_legend38 has made the advancement [Monster Hunter]
-[17Jan2025 15:46:55.839] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ultra_legend38 has made the advancement [Acquire Hardware]
-[17Jan2025 15:49:55.813] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ultra_legend38 has made the advancement [Isn't It Iron Pick]
-[17Jan2025 15:51:10.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shadder4k has made the advancement [Acquire Hardware]
-[17Jan2025 15:51:32.869] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shadder4k has made the advancement [Isn't It Iron Pick]
-[17Jan2025 15:51:51.846] [Worker-Main-25/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-21, y=-58, z=1048}
-[17Jan2025 15:51:51.849] [Worker-Main-25/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-21, y=-58, z=1048}
-[17Jan2025 15:51:51.849] [Worker-Main-25/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-23, y=-58, z=1048}
-[17Jan2025 15:51:51.849] [Worker-Main-25/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-23, y=-58, z=1048}
-[17Jan2025 15:51:51.850] [Worker-Main-25/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-17, y=-54, z=1050}
-[17Jan2025 15:51:52.014] [Worker-Main-25/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-25, y=-58, z=1048}
-[17Jan2025 15:51:52.014] [Worker-Main-25/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-25, y=-58, z=1049}
-[17Jan2025 15:51:52.015] [Worker-Main-25/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-25, y=-58, z=1051}
-[17Jan2025 15:52:00.578] [Worker-Main-25/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-57, y=-58, z=1079}
-[17Jan2025 15:52:00.582] [Worker-Main-25/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-57, y=-58, z=1080}
-[17Jan2025 15:52:00.588] [Worker-Main-25/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-55, y=-58, z=1080}
-[17Jan2025 15:52:00.589] [Worker-Main-25/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-55, y=-58, z=1080}
-[17Jan2025 15:52:00.589] [Worker-Main-25/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-53, y=-58, z=1080}
-[17Jan2025 15:52:00.590] [Worker-Main-25/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-53, y=-58, z=1079}
-[17Jan2025 15:53:02.594] [Worker-Main-25/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-57, y=-58, z=1076}
-[17Jan2025 15:53:02.596] [Worker-Main-25/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-55, y=-58, z=1076}
-[17Jan2025 15:53:02.597] [Worker-Main-25/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-57, y=-58, z=1077}
-[17Jan2025 15:53:02.597] [Worker-Main-25/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-53, y=-58, z=1077}
-[17Jan2025 15:53:35.879] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ultra_legend38 has made the advancement [Crops of the Wild]
-[17Jan2025 15:54:05.778] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shadder4k has made the advancement [Crops of the Wild]
-[17Jan2025 15:54:53.067] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shadder4k has made the advancement [Suit Up]
-[17Jan2025 15:55:49.955] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ultra_legend38 has made the advancement [Sweet Dreams]
-[17Jan2025 15:55:51.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shadder4k has made the advancement [Sweet Dreams]
-[17Jan2025 15:56:00.979] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ultra_legend38 lost connection: Disconnected
-[17Jan2025 15:56:00.979] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ultra_legend38 left the game
-[17Jan2025 15:56:07.560] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@211f77e4
-[17Jan2025 15:56:07.577] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Ultra_legend38[/127.218.11.51:54871] logged in with entity id 5790 at (-211.5, 128.5625, 795.5)
-[17Jan2025 15:56:07.600] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ultra_legend38 joined the game
-[17Jan2025 15:56:07.726] [Server thread/INFO] [Jade/]: Syncing config to Ultra_legend38 (bdb2eeea-e68d-3488-899e-749a6ee9f16e)
-[17Jan2025 15:56:08.727] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ultra_legend38 lost connection: Disconnected
-[17Jan2025 15:56:08.728] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ultra_legend38 left the game
-[17Jan2025 15:56:22.253] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@5e9a4bb2
-[17Jan2025 15:56:22.277] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Ultra_legend38[/127.218.11.51:50589] logged in with entity id 5821 at (-212.0, 128.5625, 795.5)
-[17Jan2025 15:56:22.310] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ultra_legend38 joined the game
-[17Jan2025 15:56:22.415] [Server thread/INFO] [Jade/]: Syncing config to Ultra_legend38 (bdb2eeea-e68d-3488-899e-749a6ee9f16e)
-[17Jan2025 15:56:23.431] [Netty Epoll Server IO #3/INFO] [ShulkerBoxTooltip/]: [ShulkerBoxTooltip] Ultra_legend38: protocol version: 2.0
-[17Jan2025 16:02:00.702] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ultra_legend38 has made the advancement [Hunt and Gather]
-[17Jan2025 16:02:35.077] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ultra_legend38 has made the advancement [Diamonds!]
-[17Jan2025 16:02:36.038] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ultra_legend38 has made the advancement [Suit Up]
-[17Jan2025 16:03:52.351] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shadder4k has made the advancement [Diamonds!]
-[17Jan2025 16:04:16.358] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ultra_legend38 has made the advancement [Ice Bucket Challenge]
-[17Jan2025 16:09:56.441] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
-[17Jan2025 16:09:56.443] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tp<--[HERE]
-[17Jan2025 16:11:56.395] [Worker-Main-1/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wheat_grain_bin
-[17Jan2025 16:12:10.908] [Worker-Main-1/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wooden_wheat_farm
-[17Jan2025 16:12:49.306] [Worker-Main-1/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:nature/long_oak_pathway
-[17Jan2025 16:12:49.307] [Worker-Main-1/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:nature/long_oak_pathway
-[17Jan2025 16:12:49.307] [Worker-Main-1/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:nature/long_oak_pathway
-[17Jan2025 16:12:49.307] [Worker-Main-1/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:nature/long_oak_pathway
-[17Jan2025 16:12:49.307] [Worker-Main-1/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:nature/long_oak_pathway
-[17Jan2025 16:13:45.756] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-307, y=29, z=-607}
-[17Jan2025 16:13:45.757] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-303, y=29, z=-607}
-[17Jan2025 16:13:46.447] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-307, y=29, z=-612}
-[17Jan2025 16:13:46.448] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-303, y=29, z=-612}
-[17Jan2025 16:13:51.812] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-355, y=26, z=-545}
-[17Jan2025 16:13:51.813] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-355, y=26, z=-541}
-[17Jan2025 16:13:51.853] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-249, y=27, z=-561}
-[17Jan2025 16:13:55.203] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-257, y=27, z=-591}
-[17Jan2025 16:13:55.203] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-253, y=27, z=-591}
-[17Jan2025 16:13:55.204] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-250, y=27, z=-586}
-[17Jan2025 16:13:55.831] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-362, y=26, z=-631}
-[17Jan2025 16:13:55.831] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-362, y=26, z=-629}
-[17Jan2025 16:13:55.831] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-356, y=26, z=-626}
-[17Jan2025 16:13:55.832] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-355, y=26, z=-628}
-[17Jan2025 16:13:55.832] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-354, y=26, z=-626}
-[17Jan2025 16:13:55.832] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-364, y=26, z=-623}
-[17Jan2025 16:13:55.832] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-362, y=26, z=-622}
-[17Jan2025 16:13:55.832] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-362, y=26, z=-623}
-[17Jan2025 16:13:55.832] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-354, y=26, z=-622}
-[17Jan2025 16:13:55.833] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-355, y=26, z=-622}
-[17Jan2025 16:13:55.833] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-355, y=26, z=-620}
-[17Jan2025 16:13:55.833] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-356, y=26, z=-620}
-[17Jan2025 16:13:55.979] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-235, y=27, z=-544}
-[17Jan2025 16:13:56.116] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-234, y=32, z=-539}
-[17Jan2025 16:13:56.395] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-365, y=26, z=-615}
-[17Jan2025 16:13:56.396] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-364, y=26, z=-609}
-[17Jan2025 16:13:56.396] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-366, y=26, z=-609}
-[17Jan2025 16:13:56.396] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-366, y=26, z=-613}
-[17Jan2025 16:13:56.396] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-365, y=26, z=-613}
-[17Jan2025 16:13:56.396] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-364, y=26, z=-613}
-[17Jan2025 16:13:56.397] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-358, y=26, z=-614}
-[17Jan2025 16:13:56.397] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-358, y=26, z=-615}
-[17Jan2025 16:13:56.397] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-358, y=26, z=-616}
-[17Jan2025 16:13:56.397] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-356, y=26, z=-615}
-[17Jan2025 16:13:56.397] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-356, y=26, z=-614}
-[17Jan2025 16:13:56.397] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-358, y=26, z=-606}
-[17Jan2025 16:13:56.398] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-356, y=26, z=-606}
-[17Jan2025 16:14:04.732] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-191, y=28, z=-589}
-[17Jan2025 16:14:04.750] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-191, y=28, z=-587}
-[17Jan2025 16:14:10.452] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-249, y=27, z=-561}
-[17Jan2025 16:14:16.447] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-235, y=27, z=-544}
-[17Jan2025 16:14:16.447] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-234, y=32, z=-539}
-[17Jan2025 16:14:17.405] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-250, y=27, z=-536}
-[17Jan2025 16:14:17.405] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-251, y=27, z=-536}
-[17Jan2025 16:14:17.406] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-252, y=27, z=-536}
-[17Jan2025 16:14:17.406] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-250, y=28, z=-536}
-[17Jan2025 16:14:17.406] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-251, y=28, z=-536}
-[17Jan2025 16:14:17.407] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-252, y=28, z=-536}
-[17Jan2025 16:14:17.590] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-330, y=27, z=-542}
-[17Jan2025 16:14:17.591] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-329, y=27, z=-542}
-[17Jan2025 16:14:17.592] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-329, y=32, z=-542}
-[17Jan2025 16:14:47.620] [Worker-Main-25/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: kaisyn:village/meadow_swiss/villagers
-[17Jan2025 16:14:48.102] [Worker-Main-25/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: kaisyn:village/meadow_swiss/villagers
-[17Jan2025 16:14:48.499] [Worker-Main-25/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: kaisyn:village/meadow_swiss/villagers
-[17Jan2025 16:16:23.843] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fletcher'/13705, l='ServerLevel[world]', x=-830.51, y=62.94, z=2325.56] died, message: 'Fletcher was slain by Zombie'
-[17Jan2025 16:18:28.543] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/13415, l='ServerLevel[world]', x=-882.30, y=86.00, z=2309.30] died, message: 'Villager was slain by Zombie'
-[17Jan2025 16:22:11.355] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shadder4k has made the advancement [Ice Bucket Challenge]
-[17Jan2025 16:23:49.200] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ultra_legend38 has made the advancement [Amateur Archaeologist]
-[17Jan2025 16:31:18.313] [Worker-Main-49/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: kaisyn:village/meadow_swiss/villagers
-[17Jan2025 16:31:38.780] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ultra_legend38> zzzz
-[17Jan2025 16:31:44.319] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ultra_legend38> z
-[17Jan2025 16:32:15.319] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set the time to 1000
-[17Jan2025 16:32:33.704] [Worker-Main-49/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-55, y=-52, z=1054}
-[17Jan2025 16:32:46.125] [Worker-Main-49/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-57, y=-58, z=1076}
-[17Jan2025 16:32:46.125] [Worker-Main-49/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-55, y=-58, z=1076}
-[17Jan2025 16:32:46.126] [Worker-Main-49/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-57, y=-58, z=1079}
-[17Jan2025 16:32:46.126] [Worker-Main-49/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-57, y=-58, z=1077}
-[17Jan2025 16:32:46.126] [Worker-Main-49/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-57, y=-58, z=1080}
-[17Jan2025 16:32:46.126] [Worker-Main-49/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-55, y=-58, z=1080}
-[17Jan2025 16:32:46.127] [Worker-Main-49/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-55, y=-58, z=1080}
-[17Jan2025 16:32:46.765] [Worker-Main-49/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-53, y=-58, z=1080}
-[17Jan2025 16:32:46.766] [Worker-Main-49/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-53, y=-58, z=1079}
-[17Jan2025 16:32:46.767] [Worker-Main-49/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-53, y=-58, z=1077}
-[17Jan2025 16:32:47.737] [Worker-Main-49/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-17, y=-54, z=1050}
-[17Jan2025 16:32:55.988] [Worker-Main-54/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-21, y=-58, z=1048}
-[17Jan2025 16:32:55.989] [Worker-Main-54/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-21, y=-58, z=1048}
-[17Jan2025 16:32:55.989] [Worker-Main-54/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-23, y=-58, z=1048}
-[17Jan2025 16:32:55.990] [Worker-Main-54/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-23, y=-58, z=1048}
-[17Jan2025 16:32:55.992] [Worker-Main-54/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-25, y=-58, z=1048}
-[17Jan2025 16:32:55.993] [Worker-Main-54/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-25, y=-58, z=1049}
-[17Jan2025 16:32:55.994] [Worker-Main-54/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-25, y=-58, z=1051}
-[17Jan2025 16:32:56.395] [Worker-Main-54/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-21, y=-58, z=1048}
-[17Jan2025 16:32:56.396] [Worker-Main-54/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-21, y=-58, z=1048}
-[17Jan2025 16:32:56.397] [Worker-Main-54/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-23, y=-58, z=1048}
-[17Jan2025 16:32:56.397] [Worker-Main-54/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-23, y=-58, z=1048}
-[17Jan2025 16:32:56.397] [Worker-Main-54/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-25, y=-58, z=1048}
-[17Jan2025 16:32:56.398] [Worker-Main-54/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-25, y=-58, z=1049}
-[17Jan2025 16:32:56.398] [Worker-Main-54/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-25, y=-58, z=1051}
-[17Jan2025 16:32:58.931] [Worker-Main-54/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-17, y=-54, z=1050}
-[17Jan2025 16:33:10.868] [Worker-Main-54/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:nature/short_oak_pathway
-[17Jan2025 16:33:10.869] [Worker-Main-54/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:nature/short_oak_pathway
-[17Jan2025 16:33:15.109] [Worker-Main-54/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-57, y=-58, z=1079}
-[17Jan2025 16:33:15.109] [Worker-Main-54/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-57, y=-58, z=1080}
-[17Jan2025 16:33:15.109] [Worker-Main-54/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-55, y=-58, z=1080}
-[17Jan2025 16:33:15.110] [Worker-Main-54/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-55, y=-58, z=1080}
-[17Jan2025 16:33:15.110] [Worker-Main-54/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-53, y=-58, z=1080}
-[17Jan2025 16:33:15.110] [Worker-Main-54/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-53, y=-58, z=1079}
-[17Jan2025 16:33:22.393] [Worker-Main-54/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-57, y=-58, z=1076}
-[17Jan2025 16:33:22.394] [Worker-Main-54/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-55, y=-58, z=1076}
-[17Jan2025 16:33:22.394] [Worker-Main-54/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-57, y=-58, z=1077}
-[17Jan2025 16:33:22.394] [Worker-Main-54/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-53, y=-58, z=1077}
-[17Jan2025 16:33:22.883] [Worker-Main-54/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-57, y=-58, z=1079}
-[17Jan2025 16:33:22.884] [Worker-Main-54/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-57, y=-58, z=1077}
-[17Jan2025 16:33:22.884] [Worker-Main-54/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-57, y=-58, z=1080}
-[17Jan2025 16:33:22.885] [Worker-Main-54/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-55, y=-58, z=1080}
-[17Jan2025 16:33:22.885] [Worker-Main-54/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-55, y=-58, z=1080}
-[17Jan2025 16:33:22.885] [Worker-Main-54/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-53, y=-58, z=1080}
-[17Jan2025 16:33:22.886] [Worker-Main-54/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-53, y=-58, z=1079}
-[17Jan2025 16:33:22.886] [Worker-Main-54/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-53, y=-58, z=1077}
-[17Jan2025 16:33:22.911] [Worker-Main-54/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-57, y=-58, z=1076}
-[17Jan2025 16:33:22.912] [Worker-Main-54/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-55, y=-58, z=1076}
-[17Jan2025 16:34:54.509] [Worker-Main-54/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-21, y=-58, z=1048}
-[17Jan2025 16:34:54.509] [Worker-Main-54/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-21, y=-58, z=1048}
-[17Jan2025 16:34:54.509] [Worker-Main-54/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-23, y=-58, z=1048}
-[17Jan2025 16:34:54.510] [Worker-Main-54/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-23, y=-58, z=1048}
-[17Jan2025 16:34:54.510] [Worker-Main-54/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-25, y=-58, z=1048}
-[17Jan2025 16:34:54.510] [Worker-Main-54/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-25, y=-58, z=1049}
-[17Jan2025 16:34:54.511] [Worker-Main-54/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-25, y=-58, z=1051}
-[17Jan2025 16:34:54.662] [Worker-Main-54/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-17, y=-54, z=1050}
-[17Jan2025 16:38:08.785] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@723cc607
-[17Jan2025 16:40:57.186] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/27515, l='ServerLevel[world]', x=-836.10, y=63.00, z=2360.36] died, message: 'Villager hit the ground too hard'
-[17Jan2025 16:42:30.292] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shadder4k has made the advancement [Not Today, Thank You]
-[17Jan2025 16:44:21.045] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ultra_legend38> esq no
-[17Jan2025 16:50:01.139] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@475ea1f9
-[17Jan2025 16:50:01.143] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Ultra33x[/127.218.11.51:47265] logged in with entity id 31642 at (-248.5, 81.0, 394.5)
-[17Jan2025 16:50:01.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ultra33x joined the game
-[17Jan2025 16:50:01.307] [Server thread/INFO] [Jade/]: Syncing config to Ultra33x (22442036-5381-38fe-9071-5ac37900d244)
-[17Jan2025 16:50:02.290] [Netty Epoll Server IO #1/INFO] [ShulkerBoxTooltip/]: [ShulkerBoxTooltip] Ultra33x: protocol version: 2.0
-[17Jan2025 16:50:30.556] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ultra_legend38 has reached the goal [Half a flight]
-[17Jan2025 16:52:03.594] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ultra33x has made the advancement [Stone Age]
-[17Jan2025 16:52:14.363] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ultra33x has made the advancement [Getting an Upgrade]
-[17Jan2025 16:56:48.041] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ultra33x has made the advancement [Acquire Hardware]
-[17Jan2025 16:57:01.689] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ultra33x has made the advancement [Isn't It Iron Pick]
-[17Jan2025 16:57:25.571] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ultra33x has made the advancement [Monster Hunter]
-[17Jan2025 17:01:07.896] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: playerrevive.chat.bleeding
-[17Jan2025 17:01:30.944] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ultra33x was slain by Spider
-[17Jan2025 17:09:38.097] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: playerrevive.chat.bleeding
-[17Jan2025 17:27:15.028] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ultra33x has made the advancement [Best Friends Forever]
-[17Jan2025 17:29:09.291] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ultra33x has reached the goal [Half a flight]
-[17Jan2025 17:32:12.058] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set the time to 1000
-[17Jan2025 17:35:22.346] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ultra_legend38 has made the advancement [Light as a Rabbit]
-[17Jan2025 17:42:55.354] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: playerrevive.chat.bleeding
-[17Jan2025 17:43:15.324] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported Ultra_legend38 to Ultra33x
-[17Jan2025 17:43:30.158] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: playerrevive.chat.bleeding
-[17Jan2025 17:44:41.344] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shadder4k has reached the goal [Pray to the Goddess]
-[17Jan2025 17:48:31.050] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: playerrevive.chat.bleeding
-[17Jan2025 17:49:11.267] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shadder4k drowned
-[17Jan2025 17:50:58.486] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Incorrect argument for command
-[17Jan2025 17:50:58.489] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ...shadder4k Ultra_/t/tp shadder4k Ultra_legend38<--[HERE]
-[17Jan2025 17:51:13.754] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported shadder4k to Ultra_legend38
-[17Jan2025 17:51:26.548] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shadder4k has reached the goal [Half a flight]
-[17Jan2025 17:53:32.551] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ultra33x has made the advancement [A Seedy Place]
-[17Jan2025 17:54:21.745] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ultra33x has made the advancement [Crops of the Wild]
-[17Jan2025 18:02:21.454] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ultra33x has made the advancement [Sweet Dreams]
-[17Jan2025 18:12:17.807] [Worker-Main-85/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-355, y=26, z=-545}
-[17Jan2025 18:12:18.238] [Worker-Main-85/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-355, y=26, z=-541}
-[17Jan2025 18:12:19.409] [Worker-Main-54/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-315, y=32, z=-582}
-[17Jan2025 18:12:19.410] [Worker-Main-54/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-315, y=32, z=-587}
-[17Jan2025 18:12:19.410] [Worker-Main-54/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-312, y=32, z=-582}
-[17Jan2025 18:12:19.411] [Worker-Main-54/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-312, y=32, z=-587}
-[17Jan2025 18:12:21.495] [Worker-Main-54/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-282, y=35, z=-587}
-[17Jan2025 18:12:21.678] [Worker-Main-54/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-284, y=26, z=-592}
-[17Jan2025 18:12:21.679] [Worker-Main-54/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-284, y=27, z=-592}
-[17Jan2025 18:12:21.679] [Worker-Main-54/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-275, y=27, z=-591}
-[17Jan2025 18:12:22.042] [Worker-Main-54/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-329, y=27, z=-542}
-[17Jan2025 18:12:22.042] [Worker-Main-54/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-329, y=32, z=-542}
-[17Jan2025 18:12:25.260] [Worker-Main-54/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-330, y=27, z=-542}
-[17Jan2025 18:12:25.867] [Worker-Main-54/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-249, y=27, z=-561}
-[17Jan2025 18:12:51.985] [Worker-Main-54/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-234, y=32, z=-539}
-[17Jan2025 18:12:56.668] [Worker-Main-54/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-235, y=27, z=-544}
-[17Jan2025 18:12:58.937] [Worker-Main-54/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-305, y=29, z=-629}
-[17Jan2025 18:12:58.938] [Worker-Main-54/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-305, y=29, z=-624}
-[17Jan2025 18:12:58.939] [Worker-Main-54/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-301, y=29, z=-629}
-[17Jan2025 18:12:58.939] [Worker-Main-54/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-301, y=29, z=-624}
-[17Jan2025 18:12:59.299] [Worker-Main-54/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-191, y=28, z=-589}
-[17Jan2025 18:12:59.299] [Worker-Main-54/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-191, y=28, z=-587}
-[17Jan2025 18:13:03.540] [Worker-Main-54/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-309, y=29, z=-629}
-[17Jan2025 18:13:03.541] [Worker-Main-54/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-309, y=29, z=-624}
-[17Jan2025 18:13:51.412] [Worker-Main-54/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-307, y=29, z=-612}
-[17Jan2025 18:13:51.412] [Worker-Main-54/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-307, y=29, z=-607}
-[17Jan2025 18:13:51.413] [Worker-Main-54/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-303, y=29, z=-612}
-[17Jan2025 18:13:51.414] [Worker-Main-54/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-303, y=29, z=-607}
-[17Jan2025 18:13:57.086] [Worker-Main-54/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-330, y=27, z=-542}
-[17Jan2025 18:13:57.086] [Worker-Main-54/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-329, y=27, z=-542}
-[17Jan2025 18:13:57.087] [Worker-Main-54/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-329, y=32, z=-542}
-[17Jan2025 18:13:57.212] [Worker-Main-54/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-249, y=27, z=-561}
-[17Jan2025 18:15:02.847] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/76125, l='ServerLevel[world]', x=-1181.15, y=158.00, z=1518.47] died, message: 'Villager was slain by Zombie'
+[17Jan2025 19:00:25.115] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.4.2, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853, nogui]
+[17Jan2025 19:00:25.120] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.13 by Ubuntu; OS Linux arch amd64 version 6.5.0-1025-azure
+[17Jan2025 19:00:25.684] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/MC2.5/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
+[17Jan2025 19:00:26.403] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MC2.5/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.19.2-43.4.2/fmlcore-1.19.2-43.4.2.jar is missing mods.toml file
+[17Jan2025 19:00:26.404] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MC2.5/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.19.2-43.4.2/javafmllanguage-1.19.2-43.4.2.jar is missing mods.toml file
+[17Jan2025 19:00:26.406] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MC2.5/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.19.2-43.4.2/lowcodelanguage-1.19.2-43.4.2.jar is missing mods.toml file
+[17Jan2025 19:00:26.410] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MC2.5/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.19.2-43.4.2/mclanguage-1.19.2-43.4.2.jar is missing mods.toml file
+[17Jan2025 19:00:26.777] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[17Jan2025 19:00:26.789] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 4 dependencies adding them to mods collection
+[17Jan2025 19:00:30.039] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[17Jan2025 19:00:30.374] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.sonicether.soundphysics.MixinConnector]
+[17Jan2025 19:00:30.383] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [tictim.paraglider.MixinConnector]
+[17Jan2025 19:00:30.388] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [de.maxhenkel.camera.MixinConnector]
+[17Jan2025 19:00:30.391] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[17Jan2025 19:00:30.429] [main/WARN] [mixin/]: Reference map 'cobweb.refmap.json' for cobweb.mixins.json could not be read. If this is a development environment you can ignore this message
+[17Jan2025 19:00:30.437] [main/WARN] [mixin/]: Reference map 'cobweb.refmap.json' for cobweb.forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[17Jan2025 19:00:30.441] [main/WARN] [mixin/]: Reference map 'vinery-forge-refmap.json' for vinery.mixins.json could not be read. If this is a development environment you can ignore this message
+[17Jan2025 19:00:30.470] [main/WARN] [mixin/]: Reference map 'ambientsounds.mixins.refmap.json' for ambientsounds.mixins.json could not be read. If this is a development environment you can ignore this message
+[17Jan2025 19:00:30.491] [main/WARN] [mixin/]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
+[17Jan2025 19:00:30.501] [main/WARN] [mixin/]: Reference map 'mvs-forge-refmap.json' for mvs-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[17Jan2025 19:00:32.117] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.2.1-beta.2).
+[17Jan2025 19:00:33.760] [main/WARN] [mixin/]: @Final field f_20945_:Ljava/util/Map; in vinery-common.mixins.json:LivingEntityMixin should be final
+[17Jan2025 19:00:40.126] [main/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
+[17Jan2025 19:00:43.333] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for mod visualworkbench
+[17Jan2025 19:00:43.340] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for mod easyanvils
+[17Jan2025 19:00:43.500] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
+[17Jan2025 19:00:43.529] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
+[17Jan2025 19:00:44.170] [modloading-worker-0/INFO] [coroutil/]: forge loader environment detected
+[17Jan2025 19:00:44.347] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.4.2, for MC 1.19.2 with MCP 20220805.130853
+[17Jan2025 19:00:44.348] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.4.2 Initialized
+[17Jan2025 19:00:45.685] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[17Jan2025 19:00:45.707] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for mod puzzleslib
+[17Jan2025 19:00:45.959] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[17Jan2025 19:00:49.831] [modloading-worker-0/INFO] [com.github.nyuppo.MoreMobVariants/]: Giving mobs a fresh coat of paint...
+[17Jan2025 19:00:49.957] [main/INFO] [journeymap/]: Initializing Packet Registries
+[17Jan2025 19:00:49.971] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easyanvils] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/easyanvils.json
+[17Jan2025 19:00:50.094] [main/INFO] [moonlight/]: Initialized color sets in 95ms
+[17Jan2025 19:00:50.294] [main/INFO] [moonlight/]: Initialized color sets in 193ms
+[17Jan2025 19:00:50.572] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easyanvils] Found status: UP_TO_DATE Current: 4.0.11 Target: null
+[17Jan2025 19:00:50.572] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [visualworkbench] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/visualworkbench.json
+[17Jan2025 19:00:50.582] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [visualworkbench] Found status: UP_TO_DATE Current: 4.2.4 Target: null
+[17Jan2025 19:00:50.583] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Starting version check at https://mrcrayfish.com/modupdatejson?id=goblintraders
+[17Jan2025 19:00:50.712] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.waystones.compat.ForgeJadeWaystonesPlugin
+[17Jan2025 19:00:50.727] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at de.maxhenkel.corpse.integration.waila.PluginCorpse
+[17Jan2025 19:00:50.732] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[17Jan2025 19:00:50.760] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[17Jan2025 19:00:50.780] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[17Jan2025 19:00:50.789] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at de.maxhenkel.camera.integration.waila.PluginCamera
+[17Jan2025 19:00:50.790] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.geforcemods.securitycraft.compat.waila.JadeDataProvider
+[17Jan2025 19:00:51.623] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Found status: BETA Current: 1.8.0 Target: 1.8.0
+[17Jan2025 19:00:51.627] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwwindows] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/window.json
+[17Jan2025 19:00:51.632] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwwindows] Found status: UP_TO_DATE Current: 2.3.0 Target: null
+[17Jan2025 19:00:51.632] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[17Jan2025 19:00:51.970] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.9.8 Target: null
+[17Jan2025 19:00:51.970] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cobweb] Starting version check at https://api.modrinth.com/updates/cobweb/forge_updates.json
+[17Jan2025 19:00:52.229] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cobweb] Found status: OUTDATED Current: 1.0.0 Target: 1.0.1
+[17Jan2025 19:00:52.236] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [minetraps] Starting version check at https://raw.githubusercontent.com/XxRexRaptorxX/Update-Checker/main/MineTraps.json
+[17Jan2025 19:00:52.250] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [minetraps] Found status: UP_TO_DATE Current: 2.2.4a Target: null
+[17Jan2025 19:00:52.253] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [soul_fire_d] Starting version check at https://api.modrinth.com/updates/soul-fire-d/forge_updates.json
+[17Jan2025 19:00:52.377] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [soul_fire_d] Found status: OUTDATED Current: 4.0.7 Target: 4.0.8
+[17Jan2025 19:00:52.383] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Starting version check at https://update.maxhenkel.de/forge/sound_physics_remastered
+[17Jan2025 19:00:52.514] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Found status: AHEAD Current: 1.19.2-1.4.5 Target: null
+[17Jan2025 19:00:52.516] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[17Jan2025 19:00:52.691] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 43.4.2 Target: 43.4.12
+[17Jan2025 19:00:52.695] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Starting version check at https://update.maxhenkel.de/forge/corpse
+[17Jan2025 19:00:52.721] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Found status: AHEAD Current: 1.19.2-1.0.17 Target: null
+[17Jan2025 19:00:52.721] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
+[17Jan2025 19:00:52.727] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: UP_TO_DATE Current: 1.19.2-2.3.7 Target: null
+[17Jan2025 19:00:52.728] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [camera] Starting version check at https://update.maxhenkel.de/forge/camera
+[17Jan2025 19:00:52.753] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [camera] Found status: AHEAD Current: 1.19.2-1.0.14 Target: null
+[17Jan2025 19:00:52.755] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[17Jan2025 19:00:52.891] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.9.6.1 Target: null
+[17Jan2025 19:00:52.891] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [backpacked] Starting version check at https://mrcrayfish.com/modupdatejson?id=backpacked
+[17Jan2025 19:00:53.783] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [backpacked] Found status: BETA Current: 2.1.13 Target: 2.1.13
+[17Jan2025 19:00:53.784] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Starting version check at https://raw.githubusercontent.com/DmitryLovin/pluginUpdate/master/invupdate.json
+[17Jan2025 19:00:53.792] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Found status: UP_TO_DATE Current: 3.4.26 Target: null
+[17Jan2025 19:00:53.792] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [morevanillaarmor] Starting version check at https://assets.melanx.de/updates/morevanillaarmor.json
+[17Jan2025 19:00:53.868] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [morevanillaarmor] Found status: UP_TO_DATE Current: 1.19.1-4.1.1 Target: null
+[17Jan2025 19:00:53.869] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Starting version check at https://mrcrayfish.com/modupdatejson?id=cfm
+[17Jan2025 19:00:54.690] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[17Jan2025 19:00:54.733] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Found status: BETA Current: 7.0.0-pre35 Target: 7.0.0-pre35
+[17Jan2025 19:00:54.733] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
+[17Jan2025 19:00:54.740] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Found status: UP_TO_DATE Current: 4.4.3 Target: null
+[17Jan2025 19:00:56.337] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/MC2.5/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23205!/assets/.mcassetsroot' uses unexpected schema
+[17Jan2025 19:00:56.337] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/MC2.5/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23205!/data/.mcassetsroot' uses unexpected schema
+[17Jan2025 19:01:00.107] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [minecraft:cherry_grove (from mvs-4.1.4-1.19.2-forge.jar)] as it is missing following references: minecraft:cherry_grove (from mvs-4.1.4-1.19.2-forge.jar)
+[17Jan2025 19:01:01.457] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 13 recipes
+[17Jan2025 19:01:01.459] [main/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Datapack tried to redefine minecraft:empty loot table, ignoring
+[17Jan2025 19:01:02.657] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2840 advancements
+[17Jan2025 19:01:02.677] [main/INFO] [com.github.nyuppo.MoreMobVariants/]: Reloading config...
+[17Jan2025 19:01:02.703] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: mvs:has_structure/cherry_biomes
+[17Jan2025 19:01:04.298] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.19.2
+[17Jan2025 19:01:04.299] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[17Jan2025 19:01:04.300] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[17Jan2025 19:01:04.300] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[17Jan2025 19:01:04.635] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[17Jan2025 19:01:04.666] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[17Jan2025 19:01:04.782] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17Jan2025 19:01:04.784] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[17Jan2025 19:01:04.785] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17Jan2025 19:01:04.785] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[17Jan2025 19:01:04.825] [Server thread/INFO] [Puzzles Lib/]: Loading server config for easyanvils
+[17Jan2025 19:01:04.827] [Thread-0/INFO] [Puzzles Lib/]: Reloading server config for easyanvils
+[17Jan2025 19:01:04.829] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[17Jan2025 19:01:04.830] [Thread-0/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[17Jan2025 19:01:05.060] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[17Jan2025 19:01:05.814] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[17Jan2025 19:01:12.906] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[17Jan2025 19:01:22.093] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[17Jan2025 19:01:25.717] [Netty Epoll Server IO #3/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[17Jan2025 19:01:32.843] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17Jan2025 19:01:32.846] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17Jan2025 19:01:32.847] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17Jan2025 19:01:32.849] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17Jan2025 19:01:32.851] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17Jan2025 19:01:32.852] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17Jan2025 19:01:32.853] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17Jan2025 19:01:32.855] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17Jan2025 19:01:32.857] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17Jan2025 19:01:32.864] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17Jan2025 19:01:32.866] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17Jan2025 19:01:32.868] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17Jan2025 19:01:32.871] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17Jan2025 19:01:32.873] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17Jan2025 19:01:32.876] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17Jan2025 19:01:32.878] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17Jan2025 19:01:32.881] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17Jan2025 19:01:32.884] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17Jan2025 19:01:32.886] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17Jan2025 19:01:32.887] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17Jan2025 19:01:32.889] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17Jan2025 19:01:32.891] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17Jan2025 19:01:33.094] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17Jan2025 19:01:33.594] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17Jan2025 19:01:34.124] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17Jan2025 19:01:34.641] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 54%
+[17Jan2025 19:01:34.956] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 12862 ms
+[17Jan2025 19:01:34.958] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (30.156s)! For help, type "help"
+[17Jan2025 19:01:35.027] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[17Jan2025 19:01:41.575] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@6f98cd20
+[17Jan2025 19:01:41.615] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Ultra_legend38[/127.218.11.51:60105] logged in with entity id 64 at (-866.4783497392152, 146.0, 1702.8709534017005)
+[17Jan2025 19:01:41.696] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ultra_legend38 joined the game
+[17Jan2025 19:01:41.821] [Server thread/INFO] [Jade/]: Syncing config to Ultra_legend38 (bdb2eeea-e68d-3488-899e-749a6ee9f16e)
+[17Jan2025 19:01:42.818] [Netty Epoll Server IO #0/INFO] [ShulkerBoxTooltip/]: [ShulkerBoxTooltip] Ultra_legend38: protocol version: 2.0
+[17Jan2025 19:01:46.834] [Server thread/INFO] [ShulkerBoxTooltip Plugins/]: [ShulkerBoxTooltip Plugins] Loading 1 plugin: shulkerboxtooltip
+[17Jan2025 19:01:46.849] [Server thread/INFO] [ShulkerBoxTooltip Plugins/]: [ShulkerBoxTooltip Plugins] Registered 7 providers for mod shulkerboxtooltip
+[17Jan2025 19:01:46.871] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5422ms or 108 ticks behind
+[17Jan2025 19:01:51.152] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@75761e68
+[17Jan2025 19:01:51.170] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: shadder4k[/127.189.223.118:53611] logged in with entity id 207 at (-510.85562107940956, 121.0, 836.6999999880791)
+[17Jan2025 19:01:51.181] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shadder4k joined the game
+[17Jan2025 19:01:51.242] [Server thread/INFO] [Jade/]: Syncing config to shadder4k (07950977-8e4a-36d3-afc8-95051663465e)
+[17Jan2025 19:01:52.321] [Netty Epoll Server IO #2/INFO] [ShulkerBoxTooltip/]: [ShulkerBoxTooltip] shadder4k: protocol version: 2.0
+[17Jan2025 19:01:55.214] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ultra_legend38 moved too quickly! 0.8763386407279086,-0.880039138572954,10.036568117268644
+[17Jan2025 19:01:59.166] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[17Jan2025 19:01:59.173] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[17Jan2025 19:01:59.315] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ultra_legend38 lost connection: Server closed
+[17Jan2025 19:01:59.317] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ultra_legend38 left the game
+[17Jan2025 19:01:59.352] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[17Jan2025 19:02:03.867] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[17Jan2025 19:02:04.524] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[17Jan2025 19:02:04.526] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[17Jan2025 19:02:04.593] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17Jan2025 19:02:04.594] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17Jan2025 19:02:04.596] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17Jan2025 19:02:04.597] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[17Jan2025 19:02:04.629] [Thread-0/INFO] [Puzzles Lib/]: Reloading server config for easyanvils
