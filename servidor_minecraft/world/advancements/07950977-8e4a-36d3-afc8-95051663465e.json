@@ -299,6 +299,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_rabbit_from_smoking": {
+    "criteria": {
+      "has_rabbit": "2025-01-17 17:33:37 +0000"
+    },
+    "done": true
+  },
   "cfm:recipes/cfm/stripped_jungle_kitchen_sink_dark": {
     "criteria": {
       "has_bucket": "2025-01-17 16:59:46 +0000"
@@ -645,6 +651,12 @@
   "minecraft:recipes/building_blocks/sandstone": {
     "criteria": {
       "has_sand": "2025-01-17 16:16:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit_from_campfire_cooking": {
+    "criteria": {
+      "has_rabbit": "2025-01-17 17:33:37 +0000"
     },
     "done": true
   },
@@ -1127,6 +1139,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/leather": {
+    "criteria": {
+      "has_rabbit_hide": "2025-01-17 17:33:50 +0000"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/farmersdelight/cooking/baked_cod_stew": {
     "criteria": {
       "has_any_ingredient": "2025-01-17 15:34:32 +0000"
@@ -1196,6 +1214,12 @@
   "cfm:recipes/cfm/blue_cooler": {
     "criteria": {
       "has_chest": "2025-01-17 16:31:52 +0000"
+    },
+    "done": true
+  },
+  "backpacked:recipes/backpacked/backpack": {
+    "criteria": {
+      "has_hide": "2025-01-17 17:33:50 +0000"
     },
     "done": true
   },
@@ -1622,11 +1646,13 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:snowy_slopes": "2025-01-17 17:36:56 +0000",
       "minecraft:taiga": "2025-01-17 15:33:59 +0000",
       "minecraft:sunflower_plains": "2025-01-17 16:10:23 +0000",
       "minecraft:river": "2025-01-17 16:00:47 +0000",
       "minecraft:stony_shore": "2025-01-17 15:30:47 +0000",
       "minecraft:dripstone_caves": "2025-01-17 16:39:39 +0000",
+      "minecraft:jagged_peaks": "2025-01-17 17:37:13 +0000",
       "minecraft:forest": "2025-01-17 15:34:26 +0000",
       "minecraft:flower_forest": "2025-01-17 16:11:34 +0000",
       "minecraft:meadow": "2025-01-17 15:45:59 +0000",
@@ -2462,6 +2488,7 @@
     "criteria": {
       "cooked_porkchop": "2025-01-17 15:39:27 +0000",
       "cooked_mutton": "2025-01-17 15:43:33 +0000",
+      "cooked_beef": "2025-01-17 17:30:55 +0000",
       "apple": "2025-01-17 15:50:49 +0000",
       "bread": "2025-01-17 16:50:36 +0000",
       "cooked_chicken": "2025-01-17 15:43:52 +0000"
@@ -2973,6 +3000,12 @@
     },
     "done": true
   },
+  "vinery:white_grape_crate": {
+    "criteria": {
+      "has_white_grape": "2025-01-17 17:34:15 +0000"
+    },
+    "done": true
+  },
   "aquaculture:recipes/misc/iron_nugget_from_blasting": {
     "criteria": {
       "has_fishing_rod": "2025-01-17 15:31:27 +0000",
@@ -3097,6 +3130,12 @@
   "minecraft:recipes/building_blocks/polished_granite_stairs_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2025-01-17 17:21:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/snow": {
+    "criteria": {
+      "has_snowball": "2025-01-17 17:44:20 +0000"
     },
     "done": true
   },
@@ -3621,6 +3660,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_rabbit_from_grill_cooking": {
+    "criteria": {
+      "has_rabbit": "2025-01-17 17:33:37 +0000"
+    },
+    "done": true
+  },
   "aquaculture:recipes/misc/tin_can_to_iron_nugget": {
     "criteria": {
       "has_items": "2025-01-17 15:31:27 +0000"
@@ -3684,6 +3729,12 @@
   "backpacked:recipes/backpacked/spruce_backpack_shelf": {
     "criteria": {
       "has_stick": "2025-01-17 15:39:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit": {
+    "criteria": {
+      "has_rabbit": "2025-01-17 17:33:37 +0000"
     },
     "done": true
   },
@@ -3805,6 +3856,12 @@
   "minecraft:recipes/misc/magenta_dye_from_allium": {
     "criteria": {
       "has_allium": "2025-01-17 16:00:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/snow_block": {
+    "criteria": {
+      "has_snowball": "2025-01-17 17:44:20 +0000"
     },
     "done": true
   },
@@ -3949,6 +4006,12 @@
   "minecraft:recipes/decorations/andesite_wall_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2025-01-17 16:39:46 +0000"
+    },
+    "done": true
+  },
+  "paraglider:pray_to_the_goddess": {
+    "criteria": {
+      "bargain": "2025-01-17 17:44:41 +0000"
     },
     "done": true
   },
