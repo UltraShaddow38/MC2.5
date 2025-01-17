@@ -455,6 +455,12 @@
     },
     "done": true
   },
+  "securitycraft:recipes/securitycraft/keypad_door_item": {
+    "criteria": {
+      "has_reinforced_door": "2025-01-17 17:59:34 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/securitycraft/taser": {
     "criteria": {
       "has_redstone": "2025-01-17 17:04:20 +0000"
@@ -3524,6 +3530,12 @@
   "cfm:recipes/cfm/stripped_jungle_mail_box": {
     "criteria": {
       "has_chest": "2025-01-17 16:38:36 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/scanner_door_item": {
+    "criteria": {
+      "has_reinforced_door": "2025-01-17 17:59:34 +0000"
     },
     "done": true
   },

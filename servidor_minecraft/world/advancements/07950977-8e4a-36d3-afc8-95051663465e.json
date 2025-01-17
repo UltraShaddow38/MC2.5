@@ -845,6 +845,12 @@
     },
     "done": true
   },
+  "paraglider:recipes/paraglider/cosmetic/deku_leaf": {
+    "criteria": {
+      "has_paragliders": "2025-01-17 17:51:26 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_deepslate_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2025-01-17 17:07:08 +0000"
@@ -2292,6 +2298,12 @@
     },
     "done": true
   },
+  "paraglider:recipes/paraglider/cosmetic/paraglider": {
+    "criteria": {
+      "has_paragliders": "2025-01-17 17:51:26 +0000"
+    },
+    "done": true
+  },
   "ironchest:recipes/ironchest/chests/vanilla_dirt_chest": {
     "criteria": {
       "has_iron_ingot": "2025-01-17 15:48:14 +0000"
@@ -2858,6 +2870,12 @@
   "minecraft:recipes/food/golden_apple": {
     "criteria": {
       "has_gold_ingot": "2025-01-17 16:58:25 +0000"
+    },
+    "done": true
+  },
+  "paraglider:paraglider": {
+    "criteria": {
+      "paraglider": "2025-01-17 17:51:26 +0000"
     },
     "done": true
   },
