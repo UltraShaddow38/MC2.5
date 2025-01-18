@@ -135,3 +135,4 @@
 [18Jan2025 14:38:53.319] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (41.611s)! For help, type "help"
 [18Jan2025 14:38:53.380] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
 [18Jan2025 14:38:56.775] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Seed: [-306820910102171731]
+[18Jan2025 14:48:46.165] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@ad8f35e[id=<null>,name=Ultra_legend38,properties={},legacy=false] (/127.218.11.51:60859) lost connection: Disconnected
